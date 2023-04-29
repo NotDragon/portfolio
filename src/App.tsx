@@ -20,6 +20,7 @@ function Box(props) {
 			<boxGeometry args={[1, 1, 1]} />
 			<meshStandardMaterial color={hovered ? 'hotpink' : 'orange'} />
 		</mesh>
+		
 	);
 }
 
